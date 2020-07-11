@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato';
+}
+.navigation nav{
+    position: fixed;
+    background-color: black;
+    width: 960px;
+    margin-left: 10%;
+    display: block;
+}
+.navigation nav ul{
+    padding-bottom: 2%;
+}
+.navigation nav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+.navigation nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.navigation nav ul li:hover a{
+    background-color: tomato;
+    text-transform: uppercase;
+}
+.fifty-percent{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.total_position{    
+    padding-top: 20px;
+    margin-left: 100px;
+}
+.total_position p, .biography p{
+    margin-bottom: 30px;
+}
+.left_position{
+    padding-top: 167px;
+    margin-left: 20px;
+    position: relative;
+}
+.fifty-percent img{
+    width: 100%;
+}
+#hello{
+    height: 755px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    padding-top: 42px;
+}
+section{
+    height: 500px;
+}
+.link_button{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color:white;
+}
+.my_name{
+    color: fuchsia;
+}
+.biography{
+    height: 800px;
+    display: block;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+}
+.left_biography img{
+    width: 80%;
+    margin-top: 83px;
+    margin-left: 36px;
+}
+.right_biography{
+    margin-top: 190px;
+}
+.my_latest_work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 666px;
+    height: 350px;
+}
+.my_latest_work h3{
+    text-align: center;
+}
+.our_images{
+    text-align: center;
+    padding-top: 30px;
+}
+.our_images img{
+    width:20%;
+    padding-left: 40px;
+}
+.client{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    height: 350px;
+}
+.client h4{
+    padding-top: 55px;
+    line-height: 0px;
+}
+.client h6{
+    opacity: 43.2%;
+}
+.text_massage{
+    background-color: lightcoral;
+    padding: 20px 25px;
+    border-radius: 10px;
+    color:white;
+    width: 480px;
+    margin-left: 400px;
+    margin-top: 54px;
+}
+.email:hover{
+    font-size: 30px;
+    color: green;
+}
+footer{
+    margin-top: 140px;
+    text-align: center;
+    opacity: 62%;
+    }
